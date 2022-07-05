@@ -77,7 +77,7 @@ li {
 
 /* Donate-Amount-section-start */
 .donate-today {
-	padding: 130px 0px 60px 0px;
+	padding: 130px 0px 130px 0px;
 	text-align: center;
 }
 .heading-style {
@@ -126,4 +126,95 @@ li {
 	width: 700px;
 	text-align: center;
 }
-/* Donate-Amount-section-end */ ;
+/* Donate-Amount-section-end */
+
+/* Donate-plan-section-start */
+
+.donate {
+	text-align: center;
+}
+.donate-item {
+	display: flex;
+}
+.donate-item .item1 {
+	padding: 40px 20px;
+	margin: 20px;
+	border-radius: 5px;
+}
+.donate-item .item1 img {
+	text-align: left;
+	padding-bottom: 10px;
+}
+.donate-item .item1 h2 {
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	color: #121212;
+}
+.donate-item .item1 p {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	padding-top: 10px;
+	color: #707070;
+}
+.donate-item .item1:first-child {
+	background: rgba(79, 157, 166, 0.1);
+}
+.donate-item .item1:nth-child(2) {
+	background: rgba(255, 89, 89, 0.1);
+}
+.donate-item .item1:nth-child(3) {
+	background-color: #fff4d6;
+}
+
+/* Donate-plan-section-end */
+
+/* Get-my-Updates-section-start */
+
+.my-updates {
+	text-align: center;
+	padding: 130px 0px;
+}
+.input-sec {
+	padding: 40px 200px 70px 200px;
+	background-color: #fff4d6;
+	border-radius: 10px;
+	margin: 30px 100px 0px 100px;
+}
+.input-sec input {
+	padding: 11px;
+	width: 300px;
+	font-size: 19px;
+	font-weight: 500;
+	border: none;
+	background-color: #d9d9d9;
+	color: #aa9f9f;
+	transform: translate(6px, 0px);
+}
+/* Get-my-Updates-section-end */
+
+/* Footer-section-start */
+footer {
+	background-color: #0b0d17;
+	text-align: center;
+	padding: 50px 0;
+}
+footer h1 {
+	font-size: 36px;
+	line-height: 44px;
+	font-weight: 400;
+	color: #ff5959;
+	font-family: 'Lobster';
+}
+footer p {
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #d9dbe1;
+}
+/* Footer-section-end */
