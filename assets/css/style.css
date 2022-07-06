@@ -37,7 +37,7 @@ li {
 		),
 		url('../images/img/donation5.jpg');
 	width: 100%;
-	height: 90vh;
+	height: 100vh;
 	background-size: cover;
 	color: white;
 	justify-content: center;
@@ -173,6 +173,7 @@ li {
 /* Donate-plan-section-end */
 
 /* News-section-start */
+
 .news-section {
 	text-align: center;
 	padding: 130px 0 0 0;
@@ -181,7 +182,6 @@ li {
 	display: flex;
 }
 .news-sec .news1 {
-	/* border: 1px solid red; */
 	margin: 10px 10px;
 	padding: 10px;
 	border-radius: 5px;
@@ -235,16 +235,15 @@ li {
 	margin: 30px 100px 0px 100px;
 }
 .input-sec input {
-	padding: 11px;
+	padding: 13px;
 	width: 300px;
-	font-size: 19px;
+	font-size: 16px;
 	font-weight: 500;
 	border: none;
 	background-color: #d9d9d9;
 	color: #aa9f9f;
-	transform: translate(6px, 0px);
-	/* -webkit-appearance: none; */
-	/* -moz-appearance: textfield; */
+	transform: translate(6px, -1px);
+	border-radius: 5px 0px 0px 5px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -254,6 +253,7 @@ input::-webkit-inner-spin-button {
 /* Get-my-Updates-section-end */
 
 /* Footer-section-start */
+
 footer {
 	background-color: #0b0d17;
 	text-align: center;
@@ -262,9 +262,10 @@ footer {
 footer h1 {
 	font-size: 36px;
 	line-height: 44px;
-	font-weight: 400;
+	font-weight: 600;
 	color: #ff5959;
 	font-family: 'Lobster';
+	font-style: italic;
 }
 footer p {
 	font-family: 'Manrope';
@@ -275,3 +276,7 @@ footer p {
 	color: #d9dbe1;
 }
 /* Footer-section-end */
+
+/*--------------------------------------
+ Donate-today-project-end -------------------------------------------
+ ----------*/
